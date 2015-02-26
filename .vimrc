@@ -25,7 +25,6 @@ Plugin 'mhinz/vim-signify'
 Plugin 'chrisbra/changesPlugin'
 Plugin 'majutsushi/tagbar'
 
-
 call vundle#end()
 syntax on
 filetype plugin indent on
@@ -44,6 +43,7 @@ let g:airline#extensions#tabline#enabled=1
 set background=dark
 colorscheme solarized
 let g:solarized_termtrans=1
+let g:solarized_contrast="high"
 
 set clipboard=unnamed
 set wildmenu
