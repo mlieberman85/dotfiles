@@ -1,0 +1,9 @@
+[user]
+	name = Mike Lieberman
+	email = bw.mike.lieberman@gmail.com
+[core]
+	editor = vim
+[color]
+	ui = true
+[push]
+	default = simple
