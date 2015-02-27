@@ -31,8 +31,8 @@ filetype plugin indent on
 
 set laststatus=2
 let g:airline_powerline_fonts=1
-let g:airline_theme='solarized'
-let s:background='dark'
+"let g:airline_theme='solarized'
+"let s:background='dark'
 let g:airline#extensions#hunks#enabled=1
 let g:airline#extensions#branch#enabled=1
 let g:airline#extensions#syntastic#enabled=1
@@ -121,3 +121,5 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
+
+nmap <F8> :TagbarToggle<CR>

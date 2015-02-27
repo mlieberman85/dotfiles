@@ -1,6 +1,6 @@
-[user]
-	name = Mike Lieberman
-	email = bw.mike.lieberman@gmail.com
+[include]
+	path = ~/.gituser ;
+
 [core]
 	editor = vim
 [color]
