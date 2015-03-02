@@ -51,7 +51,7 @@ export EDITOR="vim"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 #plugins=(git)
-plugins=(aws gem git github git-hubflow brew bundler osx sublime tmux tmuxinator nyan pip pep8 pyenv pylint python vi-mode vagrant virtualenvwrapper)
+plugins=(aws gem brew osx tmux tmuxinator pip pep8 python vi-mode vagrant virtualenvwrapper)
 
 # User configuration
 

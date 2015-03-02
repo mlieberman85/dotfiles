@@ -7,7 +7,7 @@ call vundle#begin()
 " Let Vundle manage Vundle
 Plugin 'gmarik/vundle'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'edkolev/tmuxline.vim'
+" Plugin 'edkolev/tmuxline.vim'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
@@ -24,6 +24,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'mhinz/vim-signify'
 Plugin 'chrisbra/changesPlugin'
 Plugin 'majutsushi/tagbar'
+Plugin 'suan/vim-instant-markdown'
 
 call vundle#end()
 syntax on
@@ -31,8 +32,8 @@ filetype plugin indent on
 
 set laststatus=2
 let g:airline_powerline_fonts=1
-"let g:airline_theme='solarized'
-"let s:background='dark'
+let g:airline_theme='solarized'
+let s:background='dark'
 let g:airline#extensions#hunks#enabled=1
 let g:airline#extensions#branch#enabled=1
 let g:airline#extensions#syntastic#enabled=1
@@ -43,7 +44,7 @@ let g:airline#extensions#tabline#enabled=1
 set background=dark
 colorscheme solarized
 let g:solarized_termtrans=1
-let g:solarized_contrast="high"
+"let g:solarized_contrast="high"
 
 set clipboard=unnamed
 set wildmenu
